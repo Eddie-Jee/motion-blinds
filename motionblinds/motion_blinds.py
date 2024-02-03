@@ -1396,6 +1396,14 @@ class MotionBlind:
 
         self._parse_response(response)
 
+    def Favourite_position(self):
+        """Move the blind to favourite position."""
+        data = {"operation": 12}
+
+        response = self._write(data)
+
+        self._parse_response(response)  
+
     def Register_callback(self, cb_id, callback):
         """Register a external callback function for updates of this blind."""
         if cb_id in self._registered_callbacks:
