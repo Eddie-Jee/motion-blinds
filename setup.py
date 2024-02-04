@@ -8,14 +8,14 @@ from setuptools import find_packages, setup
 HERE = pathlib.Path(__file__).parent
 
 # The text of the README file
-README = (HERE / "README.md").read_text()
+README = (HERE / "README.md").read_text()0
 
-setup(name='motionblinds',
-      version='0.6.19',
+setup(name='motionblinds-ed',
+      version='0.0.1',
       description='Python library for interfacing with Motion Blinds',
       long_description=README,
       long_description_content_type="text/markdown",
-      url='https://github.com/starkillerOG/motion-blinds',
+      url='https://github.com/Eddie-Jee/motion-blinds',
       author='starkillerOG',
       author_email='starkiller.og@gmail.com',
       license='MIT',
