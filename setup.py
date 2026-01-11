@@ -11,7 +11,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(name='motionblinds',
-      version='0.6.99',
+      version='0.6.100',
       description='Python library for interfacing with Motion Blinds',
       long_description=README,
       long_description_content_type="text/markdown",
@@ -32,9 +32,9 @@ setup(name='motionblinds',
           "Operating System :: OS Independent",
           "Topic :: Software Development :: Libraries",
           "Topic :: Home Automation",
-          "Programming Language :: Python :: 3.6",
-          "Programming Language :: Python :: 3.7",
-          "Programming Language :: Python :: 3.8",
           "Programming Language :: Python :: 3.9",
           "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
           ])
